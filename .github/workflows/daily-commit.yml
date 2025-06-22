@@ -4,6 +4,7 @@ on:
   schedule:
     # Runs every day at 9:35 PM IST (16:05 UTC)
     - cron: '5 16 * * *'
+  workflow_dispatch:
 
 jobs:
   commit:
